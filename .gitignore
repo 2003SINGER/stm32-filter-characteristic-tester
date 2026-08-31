@@ -1,0 +1,23 @@
+# Build and IDE output
+build/
+.idea/
+cmake-build-*/
+compile_commands.json
+*.elf
+*.map
+*.bin
+*.hex
+*.o
+*.obj
+*.d
+*.lst
+*.log
+
+# STM32CubeIDE / Eclipse workspace state
+.settings/
+Debug/
+Release/
+
+# Local OS files
+Thumbs.db
+.DS_Store

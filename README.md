@@ -2,6 +2,8 @@
 
 Firmware and HMI project for an STM32G474-based filter characteristic tester. The intended workflow is to generate a sine wave, sweep frequency on a logarithmic grid, capture the filter response through ADC + DMA, estimate gain and phase, and render the Bode-style curves and derived metrics on a UART HMI.
 
+> 项目阶段：原工程核心文件完成于 2026 年 2—4 月；公开整理：2026 年 8 月。
+
 ## Project status
 
 This was prepared for an embedded-electronics selection task of the UESTC Yingcai Experimental College team.

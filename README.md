@@ -36,7 +36,7 @@ The measurement and analysis code is mainly in:
 - ADC: ADC1 channel 1, DMA capture
 - Timer: TIM6 trigger for DAC/ADC synchronization
 - HMI: UART1, 115200 bps
-- Display project: `hmi/screen.HMI`
+- Display project: `hmi/screen.HMI`（淘晶驰串口屏的 UI 架构与通信协议见 [`docs/淘晶驰串口屏使用手册.md`](docs/淘晶驰串口屏使用手册.md)）
 
 The code assumes external analog conditioning around the DUT: the DAC output and measured filter output need appropriate level shifting before entering the single-supply ADC path. That analog chain was not fully verified, so pin wiring, voltage range, grounding, and calibration must be checked before any hardware use.
 
